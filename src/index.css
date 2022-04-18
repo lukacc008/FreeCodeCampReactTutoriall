@@ -6,22 +6,25 @@ body{
   margin:0;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: #0A275C;
+  background-color: #0C121D;
   }
 
 .nav {
-  background-color: #0C2F6E;
-  display:flex ;
-  justify-content: space-between;
+  background-color: #06090E;
+  display:flex;
+  justify-content: left;
   align-items: center;
 }
 .nav-items {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
+  margin-left: 1500px;
 }
 .nav-items > li {
-  padding: 10px;
-  color: lightskyblue;
+  padding: 6px;
+  color: white;
+  justify-content: right;
 }
 .slika {
   width: 60px;
@@ -30,28 +33,27 @@ body{
   min-height: 10px;
 }
 .footer {
-  color: lightskyblue;
+  color: white;
   font-size: 40px;
   min-height: 50px;
   position: absolute;
   bottom: 0;
   width: 100%;
-  
-  background-color: #0C2F6E;
+  background-color: #06090E;
   justify-content: baseline;
 }
 .bodyy {
-  color: lightskyblue; 
-  background-color: #0A275C;
+  color: white; 
+  background-color: #0C121D;
 }
 .h1 {
   margin: 0;
 }
-@keyframes logo192-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reactfacts {
+  display: flex;
+  color: lightskyblue;
+  margin: 0 0 0 0;
+  font-size: 30px;
+  
+  
 }

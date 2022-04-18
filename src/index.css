@@ -1,14 +1,16 @@
 * {
-  font-family: oswald;
+  font-family: Oswald;
 }
 body{ 
   height:100vh;
   margin:0;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: #0A275C;
   }
 
 .nav {
+  background-color: #0C2F6E;
   display:flex ;
   justify-content: space-between;
   align-items: center;
@@ -19,13 +21,13 @@ body{
 }
 .nav-items > li {
   padding: 10px;
+  color: lightskyblue;
 }
 .slika {
   width: 60px;
 }
 .header {
-  min-height: 50px;
-  box-shadow: 0px 3px 10px lightskyblue;
+  min-height: 10px;
 }
 .footer {
   color: lightskyblue;
@@ -34,7 +36,22 @@ body{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2rem;
-  background-color: darkgray;
+  
+  background-color: #0C2F6E;
   justify-content: baseline;
+}
+.bodyy {
+  color: lightskyblue; 
+  background-color: #0A275C;
+}
+.h1 {
+  margin: 0;
+}
+@keyframes logo192-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

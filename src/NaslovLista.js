@@ -2,8 +2,8 @@ import React from "react";
 
 export default function NaslovLista() {
     return (
-        <div>
-        <h1>Reasons why im excited to learn React!</h1>
+        <div className="bodyy">
+        <h1 className="h1">Reasons why im excited to learn React!</h1>
         <ol>
             <li>Its a popular library</li>
             <li>Im more likely to get a job as a developer

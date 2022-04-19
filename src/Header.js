@@ -4,7 +4,7 @@ export default function Header() {
     return (
     <header className="header">
         <nav className="nav">
-            <img className="slika" src="logo192.png" />
+            <img className="slika" src="logo192.png" /> <b className="reactfacts">ReactFacts</b>
             <ul className="nav-items">
                 <li>Pricing</li>
                  <li>About</li>
